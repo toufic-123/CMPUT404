@@ -1,0 +1,6 @@
+1. socket.SOCKSTREAM specifies a TCP connection
+2. client initializes connection, server handles the connection and processes requests
+3. setsockopt -> setting another socket option, the first argument is telling it the layer at which to make the change, second is the configuration to change
+4. we get the client ip and the port
+5. server recieves an empty byte string to know that the connection has ended
+6. 
