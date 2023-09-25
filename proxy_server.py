@@ -70,7 +70,7 @@ def start_server():
 
 def start_threaded_sever():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
-        server_socket.bind(PROXY_SERVER_HOST,PROXY_SERVER_PORT)
+        server_socket.bind((PROXY_SERVER_HOST,PROXY_SERVER_PORT))
         server_socket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
         server_socket.listen(2) # only allow 2 at a time
 
