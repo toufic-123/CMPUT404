@@ -1,0 +1,8 @@
+1.
+2. a page with a rocket on it
+3. page not found and Hello, world. You're at the polls index.
+4. migration adds the models to the database for a specified app
+5. a login screen for administrative options (user: tntsaa, pass: password)
+6. you're looking at question 38....You're looking at the results of question 38. .... You're voting on question 38.
+7. in case we need to redirect, a hardcoded url may be difficult to work with
+8. using a prebuilt view, makes development quicker. shortens code -> in this case it automatically passes questions to the serializer. doesn't cause you to re-invent the wheel
